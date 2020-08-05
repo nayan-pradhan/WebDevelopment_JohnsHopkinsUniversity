@@ -7,13 +7,30 @@
 
     <body>
 
-        <header>
+    <div>
+        <header id = "top">
             The notes provided here is for my future reference.
         </header>
+    </div>
+
+    <section>
+            <div>
+                <a href = "#bottom">Click here to go to bottom.</a>
+            <div>
+                <a href = "#CharactersToAvoid">Click here to go to <b>Characters To Avoid</b>.</a>
+            </div>
+            <div>
+                <a href = "#links">Click here to go to <b>links</b>.</a>
+            </div>
+            <div>
+                <a href = "#myData">Click here to go to <b>Stay Connected With Me</b>.</a>
+            </div>
+    </section>
+        
 
         <h1>Week 1 Notes - HTML, CSS, Javascript for Web Developers</h1>
 
-        <section>
+        <section id = "CharactersToAvoid">
                <div>
                    <h2>Characters to avoid</h2>
                    <ol>
@@ -25,24 +42,76 @@
                </div>
         </section>
 
-        <section>
+        <section id = "links">
             <div>
                 <h2>Linking</h2>
                 <h3>Internal Links</h3>
                 <ul>
                     <li>Linking html files on the same page</li>
                     <li>In line + Block level linking can be done. Block level linking can be used for company logos</li>
-                    <a href = "internal-links.html" title = "HTML file for linking">
-                        Click here to go to <b><i>internal-links.html</i></b> file.
-                    </a>
+                    <li>
+                        <a href = "internal-links.html" title = "HTML file for internal linking">
+                            Click here to go to <b><i>internal-links.html</i></b> file.
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>External Links</h3>
+                <ul>
+                    <li>Linking external websites/webpages</li>
+                    <li>In line + Block level linking availabe</li>
+                    <li>target = "_blank" opens link in new tab</li>
+                    <li>
+                        <a href = "external-links.html" title = "HTML file for external linking">
+                            Click here to go to <b><i>external-links.html</i></b> file.
+                        </a>
+                    </li>
+                    <li>More examples on the bottom of my page :)</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Same Page Links</h3>
+                <ul>
+                    <li>Links to different parts of same page</li>
+                    <li>Go to top, go to bottom, go to section..., ...</li>
+                    <li>
+                        <a href = "samePage-links.html" title = "HTML file for same page linking">
+                            Click here to go to <b><i>samePage-links.html</i></b> file.
+                        </a>
+                    </li>
+                    <li> &lt;... id = "nameOfTag"&gt; gives the id</li>
                 </ul>
             </div>
         </section>
 
+        <section id = "myData">
+            <h3>Stay Connected With Me:</h3>
+            <ul>>
+                <li>
+                    Github:
+                    <a href = "https://github.com/nayan-pradhan" title = "Github" target = "_blank">
+                        github.com/nayan-pradhan
+                    </a>
+                </li>
+                <li>
+                    LinkedIn:
+                    <a href = "https://www.linkedin.com/in/nayanpradhan/" title = "LinkedIn" target = "_blank">
+                        linkedin/nayanpradhan
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+
+        <div>
+            <a href = "#top">Click here to go top.</a>
+        </div>
+
     </body>
 
 
-    <footer>
+    <footer id = "bottom">
         Notes by: Nayan Man Singh Pradhan &copy; Copyright
     </footer>
 </html>
