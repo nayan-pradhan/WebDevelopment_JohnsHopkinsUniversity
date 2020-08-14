@@ -2,6 +2,10 @@ h1{
     color: lightslategray;
 }
 
+h2{
+    color: lightcyan;
+}
+
 p{
     font-size: 12px;
     background-color: lightblue;
